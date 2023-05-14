@@ -1,10 +1,14 @@
+#define  _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-int main() {
-	int i ;
-	int j ;
-	char arr1[] = "abc";
-	char arr2[] = {'a','b','c'};
-	int sz1 = sizeof(arr1) / sizeof(arr1[0]);
-	int sz2 = sizeof(arr2) / sizeof(arr2[0]);
+#define SQUARED(x) ((x)*(x))
+#define MESSAGE "Happy new year!"   
+
+
+int main(void)
+{
+	double ans = 18.0 / SQUARED(2 + 1);
+	float a = 3.14;
+	//printf("%f",ans);
+	puts(MESSAGE);
 	return 0;
 }
